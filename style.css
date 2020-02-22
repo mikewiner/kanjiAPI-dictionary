@@ -1,0 +1,68 @@
+body {
+	font-family: courier;
+	text-align: center;
+	background: pink;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	align-items:  center;
+	flex-direction: column;
+}
+
+.title {
+	display: flex;
+	flex-direction: row;
+	align-items:  center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	list-style-type: none;
+	font-weight: bold;
+}
+
+
+.button, #inputBar  {
+	width: 100px;
+	background: white;
+	color: black;
+	padding: 3px;
+	margin: 10px;
+	border: solid black 2px;
+	border-radius: 7px;
+}
+
+#inputBar {
+	width: 130px;
+	padding: 7px;
+}
+
+.line {
+	width: 100%;
+}
+
+
+#kanji{
+	max-width: 100px;
+	border: solid black 5px;
+	border-radius: 4px;
+	justify-content: left;
+}
+
+footer {
+	font-family: Georgia;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+  display: block;
+  background-color: #ED6AA6;
+  color: white;
+  margin: 0;
+}
+
